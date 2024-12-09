@@ -1,0 +1,34 @@
+.container_articles{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.articles_main{
+    background-color: blueviolet;
+
+}
+
+.container_main-articles-title{
+    color: white;
+}
+
+.container_main-articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_popular-post{
+    margin-bottom: 30px;
+}
+
+.container_newsletter{
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+
+

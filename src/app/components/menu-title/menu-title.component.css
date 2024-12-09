@@ -1,0 +1,18 @@
+
+
+.container_menu-title > img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.container_menu-title > hr{
+    margin-bottom: 15px 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .container_menu-title > img{
+        height: 200px;
+    }
+}

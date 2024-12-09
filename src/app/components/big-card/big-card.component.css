@@ -1,0 +1,32 @@
+.container_big-card{
+    border: solid 1px rgb(223, 223, 223);
+    border-radius: 5px;
+    background-color: white;
+    -webkit-box-shadow: -1px 8px 20px -15px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 8px 20px -15px rgba(0,0,0,0.75);
+  box-shadow: -1px 8px 20px -15px rgba(0,0,0,0.75);
+    width: 300px;
+    height: 255px;
+    margin: 20px 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+  }
+  
+  .big-card_description{
+      margin: 5px 10px ;
+  
+  }
+  
+  .big-card_photo> img{
+      width: 100%;
+      min-width: 300px;
+      border-radius: 5px;
+  }
+
+  @media screen and (max-width: 500px){
+    .container_big-card{
+        justify-content: center;
+    }
+  }
