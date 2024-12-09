@@ -1,59 +1,98 @@
-# AngularBlog
+# AfroBeauty Blog - Landing Page
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.2.
+**AfroBeauty Blog** é uma landing page inspirada no universo de cuidados com cabelos afro e crespos, desenvolvida com o framework Angular. Este projeto destaca as principais tendências, dicas, e tutoriais de beleza, focando em um público que busca representatividade e cuidado especializado.
 
-## Development server
+## 🚀 Principais Características do Projeto
 
-To start a local development server, run:
+- **Design Moderno e Responsivo**: A interface foi projetada para oferecer uma experiência agradável e fluida em todos os dispositivos, desde desktops até smartphones.
+- **Componentização**: Uso extensivo de componentes Angular para garantir reutilização e organização do código.
+- **Tema Personalizado**: Uma paleta de cores e fontes cuidadosamente selecionadas para representar a beleza e a diversidade cultural.
+- **SEO-Friendly**: Configuração otimizada para mecanismos de busca, garantindo maior visibilidade da página.
+- **Recursos Interativos**:
+  - **Artigos em Destaque**: Seção com artigos relevantes e imagens de alta qualidade, como dicas para cronograma capilar, hidratação e cuidados para cabelos crespos.
+  - **Postagens Populares**: Destaque para as postagens mais acessadas pelos leitores.
+  - **Newsletter**: Um formulário intuitivo para os visitantes se inscreverem e receberem novidades diretamente em seus e-mails.
+  
+## 📂 Estrutura do Projeto
+
+O projeto segue as melhores práticas de organização, utilizando Angular CLI para estruturar pastas e componentes:
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── menu-title/
+│   │   ├── big-card/
+│   │   ├── title-section/
+│   │   ├── popular-post/
+│   │   └── newsletter/
+│   ├── pages/
+│   │   └── home/
+├── assets/
+│   ├── images/
+│   ├── styles/
+│   │   └── theme.css
+```
+
+## ⚙️ Funcionalidades Técnicas
+
+### 1. **Desenvolvimento Local**
+
+Para iniciar o servidor local de desenvolvimento:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Acesse [http://localhost:4200/](http://localhost:4200/) para visualizar a aplicação. O servidor recarrega automaticamente ao salvar modificações no código.
 
-## Code scaffolding
+### 2. **Geração de Componentes**
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+Para criar novos componentes ou diretivas:
 
 ```bash
 ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 3. **Construção do Projeto**
+
+Para compilar o projeto para produção:
 
 ```bash
-ng generate --help
+ng build --prod
 ```
 
-## Building
+Os artefatos compilados estarão na pasta `dist/`.
 
-To build the project run:
+### 4. **Testes**
 
-```bash
-ng build
-```
+- **Testes Unitários**: Utilize o Karma para rodar os testes:
+  ```bash
+  ng test
+  ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+- **Testes de Integração**: Utilize ferramentas de e2e, como Protractor ou Cypress.
 
-## Running unit tests
+## 🖼️ Visual do Projeto
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+  <img src="https://github.com/user-attachments/assets/c73fa782-f386-4344-9adb-2e7cb9139919" alt="landing page">
+### **Página Inicial**
 
-```bash
-ng test
-```
+- Uma seção de artigos com imagens envolventes e descrições atraentes.
+- Destaques de postagens populares com links diretos.
+- Formulário de inscrição em newsletters para engajar o público.
 
-## Running end-to-end tests
+### **Componentes Reutilizáveis**
 
-For end-to-end (e2e) testing, run:
+Cada seção da página foi criada com componentes modulares, como `<app-title-section>` e `<app-big-card>`, garantindo consistência e escalabilidade.
 
-```bash
-ng e2e
-```
+## 🛠️ Tecnologias Utilizadas
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- **Framework**: Angular 19.0.2
+- **Linguagens**: TypeScript, HTML5, CSS3
+- **Gerenciamento de Dependências**: npm
+- **Ferramentas Auxiliares**: Angular CLI, Karma
 
-## Additional Resources
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+**AfroBeauty Blog** é mais do que uma landing page; é um espaço dedicado à valorização da beleza afro. 💇‍♀️✨
